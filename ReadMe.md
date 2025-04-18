@@ -24,6 +24,12 @@ While Sanskrit is one of the world's oldest languages and a cornerstone of India
 
 ---
 
+## Dataset
+
+![image](https://github.com/user-attachments/assets/de61cfbd-5300-4dc3-81f5-4ab3f7e5e8e3)
+
+---
+
 ## Dataset Description
 
 | Feature                | Details                                   |
@@ -38,6 +44,17 @@ While Sanskrit is one of the world's oldest languages and a cornerstone of India
 | Format                 | `.wav`                                    |
 
 Each audio file is labeled with the corresponding Sanskrit digit and speaker metadata.
+
+---
+
+## File Naming Convention
+
+- Digit_Label: Sanskrit digit spoken (0–9)  
+- Speaker_ID: Unique ID assigned to each speaker
+- Utterance_Number: Repetition count of that digit by the speaker
+
+| Digit_Label | Speaker_ID | Utterance_Number |
+|-------------|------------|------------------|
 
 ---
 
